@@ -5,6 +5,7 @@
   "description": "UI automation framework migrated from Behave/Selenium to Playwright with TypeScript.",
   "scripts": {
     "test": "playwright test",
+    "test:ci": "playwright test --project=chrome-headless --project=firefox-headless --project=edge-headless",
     "test:headed": "playwright test --headed",
     "test:chrome": "playwright test --project=chrome --project=chrome-headless",
     "test:firefox": "playwright test --project=firefox --project=firefox-headless",
