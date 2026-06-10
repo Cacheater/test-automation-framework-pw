@@ -6,6 +6,7 @@ package-lock.json
 .env
 .env.local
 .env.*.local
+# .env.example is NOT ignored - it's a template for the project
 
 # Playwright
 .playwright/
