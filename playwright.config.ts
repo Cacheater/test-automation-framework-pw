@@ -44,6 +44,7 @@ export default defineConfig({
       name: 'firefox',
       grep: /(^|\s)@firefox(\s|$)/,
       use: {
+        
         ...devices['Desktop Firefox'],
         browserName: 'firefox',
         headless: false,
